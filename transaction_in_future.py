@@ -58,7 +58,6 @@ for months in range(1,13):
         #algosdk.error.AlgodHTTPError: {"message":"TransactionPool.Remember: txn dead: round 14305815 outside of 14497814--14498814"}
     print(f'{payment_date} payement will be submitted at round {target_round:.{0}f}  with Transaction ID {signed_tx.transaction.get_txid()}')
     
-input(88888)
 
 
 first_valid_round = current_round
